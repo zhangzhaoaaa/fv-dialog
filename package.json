@@ -1,6 +1,6 @@
 {
   "name": "fv-dialog",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "dialog ui component for react, fork from rc-dialog",
   "main": "index.js",
   "directories": {
