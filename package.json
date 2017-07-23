@@ -22,7 +22,7 @@
     "lib",
     "assets/*.css"
   ],
-  "main": "./lib/index",
+  "main": "./index",
   "config": {
     "port": 8007
   },
