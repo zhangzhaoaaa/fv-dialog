@@ -1,42 +1,18 @@
 {
   "name": "fv-dialog",
-  "version": "1.0.2",
-  "description": "dialog ui component for react",
-  "keywords": [
-    "react",
-    "react-component",
-    "react-dialog",
-    "dialog",
-    "ui"
-  ],
-  "homepage": "https://github.com/zhangzhaoaaa/fv-dialog",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:zhangzhaoaaa/fv-dialog.git"
+  "version": "1.0.3",
+  "description": "dialog ui component for react, fork from rc-dialog",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   },
-  "bugs": {
-    "url": "https://github.com/zhangzhaoaaa/fv-dialog/issues"
+  "dependencies": {
+    "rc-animate": "2.x",
+    "rc-util": "3.x"
   },
-  "licenses": "MIT",
-  "files": [
-    "lib",
-    "assets/*.css"
-  ],
-  "main": "./index",
   "config": {
     "port": 8007
-  },
-  "scripts": {
-    "build": "rc-tools run build",
-    "gh-pages": "rc-tools run gh-pages",
-    "start": "rc-tools run server",
-    "pub": "rc-tools run pub",
-    "lint": "rc-tools run lint",
-    "karma": "rc-tools run karma",
-    "saucelabs": "rc-tools run saucelabs",
-    "test": "rc-tools run test",
-    "chrome-test": "rc-tools run chrome-test",
-    "coverage": "rc-tools run coverage"
   },
   "devDependencies": {
     "async": "^0.9.0",
@@ -44,17 +20,33 @@
     "bootstrap": "^3.3.6",
     "expect.js": "~0.3.1",
     "jquery": "^1.11.2",
-    "pre-commit": "1.x",
     "rc-tools": "5.x",
     "react": "~0.14.0",
     "react-addons-test-utils": "^0.14.0",
     "react-dom": "^0.14.0"
   },
-  "pre-commit": [
-
+  "scripts": {
+    "build": "rc-tools run build",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run pub",
+    "karma": "rc-tools run karma",
+    "saucelabs": "rc-tools run saucelabs",
+    "test": "rc-tools run test",
+    "chrome-test": "rc-tools run chrome-test",
+    "coverage": "rc-tools run coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangzhaoaaa/fv-dialog.git"
+  },
+  "keywords": [
+    "react",
+    "react-dialog"
   ],
-  "dependencies": {
-    "rc-animate": "2.x",
-    "rc-util": "3.x"
-  }
+  "author": "zeromike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangzhaoaaa/fv-dialog/issues"
+  },
+  "homepage": "https://github.com/zhangzhaoaaa/fv-dialog#readme"
 }
