@@ -139,6 +139,7 @@ const Dialog = React.createClass({
     const props = this.props;
     const closable = props.closable;
     const prefixCls = props.prefixCls;
+    const closeStyle = props.closeStyle || "";
     const dest = {};
     if (props.width !== undefined) {
       dest.width = props.width;
@@ -171,7 +172,7 @@ const Dialog = React.createClass({
         aria-label="Close"
         className={`${prefixCls}-close`}
       >
-        <span className={`${prefixCls}-close-x`}/>
+        <span className={`${prefixCls}-close-x ${closeStyle}`}/>
       </button>);
     }
 

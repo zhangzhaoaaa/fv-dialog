@@ -40,6 +40,7 @@ const MyControl = React.createClass({
           maskAnimation="fade"
           onClose={this.onClose}
           style={{ width: 600 }}
+          closeStyle="abc"
           title={<div>第二个弹框</div>}
           footer={
             [
